@@ -8,7 +8,7 @@ h1 {
 
 .search-submit {
   text-align: center;
-  height: 100%;
+  height: 100px;
 }
 
 .search-box, .submit-btn {
@@ -17,4 +17,39 @@ h1 {
 
 .submit-btn button{
   margin: 15px 20px 0px 20px;
+}
+
+.weather-detail {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 100%;
+}
+
+.weather-type {
+  position: absolute;
+  height: 150px;
+}
+.weather-icons img {
+  position: absolute;
+  margin-left: 20%;
+  height: 150px;
+  width: 150px;
+}
+
+.weather-main-info {
+  width: 50%;
+}
+
+.weather-main-info h3 {
+  margin-top: 35%;
+}
+
+.weather-other-info {
+  position: absolute;
+  top: 10%;
+  text-align: left;
+  margin-left: 50%;
+  margin-top: 3%;
+  font-size: 24px;
 }
