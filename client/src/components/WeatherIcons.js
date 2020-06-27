@@ -16,8 +16,6 @@ class WeatherIcons extends React.Component {
 
   render() {
     const { weather } = this.props;
-    console.log(weather);
-    console.log(typeof weather);
     return(
       <div className="weather-icons">
         <img src={this.renderIcons(weather)} alt='' />
